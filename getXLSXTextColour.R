@@ -1,7 +1,7 @@
 # Load an excel file and convert a column to a category based on text colour.
 
 library(xlsx)
-# Hint:  after making a CellStyle object called cellStyle, run names(cellStyle) to get a list of functions that can be run to get different properties of the font/background colour
+# Hint:  after making a CellStyle object called cellStyle, run names(cellStyle) to get a list of functions that can be run to get different properties of the font/background colour.
 
 getCellFontColour = function(cell){
   # Font colours can either be indexed or full hex values
